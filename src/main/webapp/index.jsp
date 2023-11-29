@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>M3 JSP Final project</title>
+    <title>IT LOGO QUIZ</title>
     <link rel="stylesheet" type="text/css" href="./static/style.css">
 </head>
 <body>

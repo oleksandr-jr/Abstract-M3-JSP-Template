@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quiz Result</title>
+    <title>IT LOGO QUIZ</title>
     <link rel="stylesheet" type="text/css" href="./static/style.css">
 </head>
 <body>
