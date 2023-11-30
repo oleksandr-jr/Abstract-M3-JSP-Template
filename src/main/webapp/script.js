@@ -42,11 +42,11 @@ function validateForm() {
     let answerAlert = document.getElementById('answer-alert');
 
     if (answerAlert.innerText.trim() === "Incorrect") {
+        makeScreenRed()
         document.getElementById('quiz-form').style.display = 'none';
         document.getElementById('timer-message').innerHTML = "Неправильна відповідь. Гра закінчена!";
         answerAlert.style.display = 'block';
         document.getElementById('restart-button').style.display = 'block';
-        makeScreenRed()
     } else if (answerAlert.innerText.trim() === "Correct!") {
         makeScreenGreen();
     }

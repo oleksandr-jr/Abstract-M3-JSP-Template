@@ -47,7 +47,7 @@
         </div>
 
         <div class="quiz-submit">
-            <input type="submit" class="btn" id="submit-button" value="Відправити" onclick="return validateSelection() && validateForm();" />
+            <input type="submit" class="btn" id="submit-button" value="Відправити" onclick="return validateSelection();" />
 
         </div>
         <div class="quiz-timer">
