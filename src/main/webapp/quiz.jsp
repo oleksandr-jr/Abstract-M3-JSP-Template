@@ -13,7 +13,7 @@
         <h1>IT LOGO QUIZ</h1>
     </div>
 
-    <form id="quiz-form" action="/quiz" method="post" onsubmit="return validateForm();">
+    <form id="quiz-form" action="/quiz" method="post">
         <div class="quiz-question">
             <%
                 Question currentQuestion = (Question) session.getAttribute("currentQuestion");
